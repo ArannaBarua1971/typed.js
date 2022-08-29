@@ -1,0 +1,36 @@
+$(function () {
+    var typed = new Typed('.text', {
+        strings: ['mr. aranna barua',
+            'mr. sourav barua'],
+        // stringsElement: null,
+        typeSpeed: 50,
+        startDelay: 0,
+        backSpeed: 50,
+        smartBackspace: true,
+        // shuffle: false,
+        backDelay: 0,
+        fadeOut: false,
+        // fadeOutClass: 'typed-fade-out',
+        fadeOutDelay: 500,
+        loop: true,
+        loopCount: Infinity,
+        showCursor: false,
+        cursorChar: '/',      
+        // autoInsertCss: true,
+        // attr: null,
+        // bindInputFocusEvents: false,
+        // contentType: 'html',
+
+        // onBegin: (self) => { },
+        // onComplete: (self) => { },
+        // preStringTyped: (arrayPos, self) => { },
+        // onStringTyped: (arrayPos, self) => { },
+        // onLastStringBackspaced: (self) => { },
+        // onTypingPaused: (arrayPos, self) => { },
+        // onTypingResumed: (arrayPos, self) => { },
+        // onReset: (self) => { },
+        // onStop: (arrayPos, self) => { },
+        // onStart: (arrayPos, self) => { },
+        // onDestroy: (self) => { }
+    })
+})
